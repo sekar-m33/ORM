@@ -42,9 +42,13 @@ class Car(models.Model):
     price = models.FloatField()
 
     def str(self):
-        return f"{self.manufacturer} {self.model_name} ({self.year})"```
+        return f"{self.manufacturer} {self.model_name} ({self.year})"
+```
+
 # OUTPUT
-![alt text](<Screenshot 2025-09-22 093130.png>)
+
+<img width="1920" height="1080" alt="Screenshot 2025-09-22 093130" src="https://github.com/user-attachments/assets/96599969-57b6-41c9-8e1f-4c321483e78e" />
+
 
 # RESULT
 Thus the program for creating a database using ORM hass been executed successfully
